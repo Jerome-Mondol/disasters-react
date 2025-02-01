@@ -49,7 +49,7 @@ const NavbarDown = (props) => {
             placeholder="Sort by: Date modified"
           />
 
-          <button className="bg-primary px-6 py-3 rounded-md text-white text-sm font-bold cursor-pointer hover:bg-black hover:text-primary transition-all w-full md:w-auto whitespace-nowrap">
+          <button className="bg-primary pr-15 px-5 py-3 rounded-md text-white text-sm font-bold cursor-pointer hover:bg-black hover:text-primary transition-all w-full md:w-auto whitespace-nowrap text-center">
             {props.btn}
           </button>
         </div>

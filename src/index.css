@@ -4,6 +4,7 @@
 * {
    box-sizing: border-box;
    font-family: "Onest", sans-serif;
+   overflow-x: hidden;
 }
 html, body {
    height: 100%;
