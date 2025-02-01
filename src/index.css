@@ -1,1 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Onest:100,200,300,regular,500,600,700,800,900);
 @import "tailwindcss";
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Onest", sans-serif;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
+@theme {
+    --font-main: "Onest", sans-serif;
+}
+
+@theme {
+    --color-primary: #F26922;
+    --color-secondary: #E4E4E780;
+}
