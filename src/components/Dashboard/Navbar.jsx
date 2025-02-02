@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import { Avatar, Logo } from "../../../public/consts/consts";
 import { IoNotifications, IoMenu, IoClose } from "react-icons/io5";
+import { NavLink } from "react-router-dom"; // Import NavLink
 
 const Navbar = () => {
-
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navItems = [
-    "Dashboard",
-    "Incidents",
-    "Locations",
-    "Documents",
-    "Cypher AI",
+    { name: "Dashboard", path: "/" },
+    { name: "Incidents", path: "/incidents" },
+    { name: "Locations", path: "/locations" },
+    { name: "Documents", path: "/documents" },
+    { name: "Cypher AI", path: "/cypher-ai" },
   ];
 
   const user = {
@@ -39,13 +39,17 @@ const Navbar = () => {
           } navLinks sm:flex flex-col sm:flex-row items-center gap-5 lg:gap-10 absolute sm:static top-16 left-0 w-full sm:w-auto bg-secondary sm:bg-transparent p-5 sm:p-0 shadow-md sm:shadow-none`}
         >
           {navItems.map((item) => (
-            <a
-              href="#"
-              key={item}
-              className="navLink text-gray-500 hover:text-gray-900 transition duration-300"
+            <NavLink
+              to={item.path}
+              key={item.name}
+              className={({ isActive }) =>
+                `navLink text-gray-500 hover:text-gray-900 transition duration-300 ${
+                  isActive ? "text-gray-900 font-bold" : ""
+                }`
+              }
             >
-              {item}
-            </a>
+              {item.name}
+            </NavLink>
           ))}
         </div>
 
