@@ -25,17 +25,20 @@ const GetStarted = () => {
     ]
 
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full px-4 sm:px-6 md:px-10 lg:px-20">
         <div className="flex justify-center items-center flex-col h-full w-full py-40">
-            <h1 className="font-bold text-3xl">Let's Get Started</h1>
-            <p className="mt-3 text-gray-500">Lorem ipsum dolar sit general sac mascho werhoLorem ipsum <br/> dolar sit general sac mascho werhoLorem ipsum dolar sit gene</p>
-            <img src={Bars} alt="" className="mt-5"/>
-            <div className="cards mt-10 flex gap-10 ">
+            <h1 className="font-bold text-3xl text-center">Let's Get Started</h1>
+            <p className="mt-3 text-gray-500 text-center">
+                Lorem ipsum dolar sit general sac mascho werhoLorem ipsum <br className="hidden sm:block"/>
+                dolar sit general sac mascho werhoLorem ipsum dolar sit gene
+            </p>
+            <img src={Bars} alt="" className="mt-5 w-32 sm:w-40 md:w-48"/>
+            <div className="cards mt-10 flex flex-col sm:flex-row flex-wrap gap-6">
                 {cards.map((card) => (
-                    <div className="card bg-secondary rounded-xl w-50 p-5" key={card.id}>
-                        <img src={card.image} alt="" />
-                        <h3 className="font-bold text-xl mt-19">{card.title}</h3>
-                        <p className="text-sm mt-3">{card.desc}</p>
+                    <div className="card bg-secondary rounded-xl w-64 p-5" key={card.id}>
+                        <img src={card.image} alt="" className="mx-auto"/>
+                        <h3 className="font-bold text-xl mt-5 text-center">{card.title}</h3>
+                        <p className="text-sm mt-3 text-center">{card.desc}</p>
                     </div>
                 ))}
             </div>
