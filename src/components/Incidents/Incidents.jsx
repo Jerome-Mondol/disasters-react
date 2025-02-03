@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Dashboard/Navbar';
-import IncidentNavDown from '../Dashboard/NavbarDown';
+import IncidentNavDown from '../Incidents/IncidentNavDown';
 import CardContainer from '../Dashboard/CardContainer';
 
 const Incidents = () => {
