@@ -1,17 +1,34 @@
-import Card1Img from '../assets/HomePage/card-1.png'
-import Card2Img from '../assets/HomePage/card-2.png'
-import Card3Img from '../assets/HomePage/card-3.png'
-import Card4Img from '../assets/HomePage/card-4.png'
-import Card5Img from '../assets/HomePage/card-5.png'
-import Card6Img from '../assets/HomePage/card-6.png'
-import AvatarImg from '../assets/HomePage/Avatar.png'
-import LogoImg from '../assets/HomePage/Logo.png'
-import ChatImg from '../assets/HomePage/chat.png'
-import BarsImg from '../assets/IncidentsPage/bars.png'
-import Symbol1Img from '../assets/IncidentsPage/Symbol1.png'
-import Symbol2Img from '../assets/IncidentsPage/Symbol2.png'
-import Symbol3Img from '../assets/IncidentsPage/Symbol3.png'
-
+import Card1Img from "../assets/HomePage/card-1.png";
+import Card2Img from "../assets/HomePage/card-2.png";
+import Card3Img from "../assets/HomePage/card-3.png";
+import Card4Img from "../assets/HomePage/card-4.png";
+import Card5Img from "../assets/HomePage/card-5.png";
+import Card6Img from "../assets/HomePage/card-6.png";
+import AvatarImg from "../assets/HomePage/Avatar.png";
+import LogoImg from "../assets/HomePage/Logo.png";
+import ChatImg from "../assets/HomePage/chat.png";
+import BarsImg from "../assets/IncidentsPage/bars.png";
+import Symbol1Img from "../assets/IncidentsPage/Symbol1.png";
+import Symbol2Img from "../assets/IncidentsPage/Symbol2.png";
+import Symbol3Img from "../assets/IncidentsPage/Symbol3.png";
+import Incident1Img from "../assets/IncidentsPage/Incident1.png";
+import Incident2Img from "../assets/IncidentsPage/Incident2.png";
+import Incident3Img from "../assets/IncidentsPage/Incident3.png";
+import Incident4Img from "../assets/IncidentsPage/Incident4.png";
+import Incident5Img from "../assets/IncidentsPage/Incident5.png";
+import Incident6Img from "../assets/IncidentsPage/Incident6.png";
+import Incident7Img from "../assets/IncidentsPage/Incident7.png";
+import Incident8Img from "../assets/IncidentsPage/Incident8.png";
+import Incident9Img from "../assets/IncidentsPage/Incident9.png";
+// import Incident10Img from '../assets/IncidentsPage/Incident10.png'
+import Incident11Img from "../assets/IncidentsPage/Incident11.png";
+import Incident12Img from "../assets/IncidentsPage/Incident12.png";
+import Incident13Img from "../assets/IncidentsPage/Incident13.png";
+import Incident14Img from "../assets/IncidentsPage/Incident14.png";
+import Incident15Img from "../assets/IncidentsPage/Incident15.png";
+import Incident16Img from "../assets/IncidentsPage/Incident16.png";
+import Incident17Img from "../assets/IncidentsPage/Incident17.png";
+import Incident18Img from "../assets/IncidentsPage/Incident18.png";
 
 export const Card1 = Card1Img;
 export const Card2 = Card2Img;
@@ -26,3 +43,21 @@ export const Bars = BarsImg;
 export const Symbol1 = Symbol1Img;
 export const Symbol2 = Symbol2Img;
 export const Symbol3 = Symbol3Img;
+export const Incident1 = Incident1Img;
+export const Incident2 = Incident2Img;
+export const Incident3 = Incident3Img;
+export const Incident4 = Incident4Img;
+export const Incident5 = Incident5Img;
+export const Incident6 = Incident6Img;
+export const Incident7 = Incident7Img;
+export const Incident8 = Incident8Img;
+export const Incident9 = Incident9Img;
+// export const Incident10 = Incident10Img; // Add this in `consts.js`
+export const Incident11 = Incident11Img;
+export const Incident12 = Incident12Img;
+export const Incident13 = Incident13Img;
+export const Incident14 = Incident14Img;
+export const Incident15 = Incident15Img;
+export const Incident16 = Incident16Img;
+export const Incident17 = Incident17Img;
+export const Incident18 = Incident18Img;
