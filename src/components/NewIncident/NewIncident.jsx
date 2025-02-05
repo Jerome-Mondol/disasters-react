@@ -7,7 +7,7 @@ const NewIncident = () => {
   return (
     <div>
         <Navbar />
-        <NewIncidentNavDown component="New Incident" greet="Home - Incidents - New Incident" btn="Next Step"/>
+        <NewIncidentNavDown component="New Incident" greet="Home - Incidents - New Incident" btn="Next Step" btn1="Back"/>
         <IncidentCards />
     </div>
   )
