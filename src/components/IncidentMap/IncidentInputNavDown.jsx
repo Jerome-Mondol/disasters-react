@@ -48,7 +48,7 @@ const IncidentInputNavDown = ({ greet, component, btn1, btn }) => {
             {btn1}
           </button>
 
-          <NavLink to="/incidents">
+          <NavLink to="/incidentMap">
             <button className="bg-primary px-4 py-2 rounded-md text-white text-sm font-bold hover:bg-black hover:text-primary transition-all w-full md:w-auto text-center">
               {btn}
             </button>
