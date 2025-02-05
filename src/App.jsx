@@ -5,6 +5,7 @@ import Incidents from "./components/Incidents/Incidents";
 import IncidentStart from "./components/IncidentStarter/IncidentStart";
 import NewIncident from './components/NewIncident/NewIncident'
 import IncidentInput from "./components/IncidentInput/IncidentInput";
+import IncidentMap from "./components/IncidentMap/IncidentMap";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
         <Route path="/incidents" element={<Incidents />} />
         <Route path="/incidentStarter" element={<IncidentStart />} />
         <Route path="/getStarted" element={<NewIncident />} />
-        <Route path="getStarted/getStartedNext" element={<IncidentInput />} />
+        <Route path="/getStartedNext" element={<IncidentInput />} />
+        <Route path="/incidentMap" element={<IncidentMap />} />
       </Routes>
     </Router>
   );

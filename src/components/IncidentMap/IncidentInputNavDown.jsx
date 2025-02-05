@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { NavLink } from 'react-router'
 
-const NewIncidentNavDown = ({ greet, component, btn1, btn }) => {
+const IncidentInputNavDown = ({ greet, component, btn1, btn }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -59,4 +59,4 @@ const NewIncidentNavDown = ({ greet, component, btn1, btn }) => {
   );
 };
 
-export default NewIncidentNavDown;
+export default IncidentInputNavDown;
