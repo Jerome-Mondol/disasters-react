@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Dashboard/Navbar'
 import IncidentCards from './IncidentCards';
-import NewIncidentNavDown from './NewIncidentNavDown';
+import NewIncidentNavDown from '../IncidentInput/IncidentInputNavDown';
 
 const NewIncident = () => {
   return (
